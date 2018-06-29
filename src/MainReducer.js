@@ -17,7 +17,8 @@ function initReducer (state = initialState, action){
 }
 
 const MainReducer = reduceReducers( 
-    initReducer, //other reducers are added here
+    initReducer, 
+                //<-- other reducers are added here. the first on the list is the one to initialize the state.
 )
 
 export default MainReducer;
